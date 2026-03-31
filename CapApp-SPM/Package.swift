@@ -12,8 +12,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", exact: "8.2.0"),
-        .package(name: "CapacitorFirebaseAuthentication", path: "../../../node_modules/@capacitor-firebase/authentication"),
-        .package(name: "CapacitorHaptics", path: "../../../node_modules/@capacitor/haptics")
+        .package(name: "CapacitorFirebaseAuthentication", path: "../VendorPackages/CapacitorFirebaseAuthentication"),
+        .package(name: "CapacitorHaptics", path: "../VendorPackages/CapacitorHaptics")
     ],
     targets: [
         .target(
