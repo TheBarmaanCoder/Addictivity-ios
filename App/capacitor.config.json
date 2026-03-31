@@ -1,0 +1,17 @@
+{
+	"appId": "com.Addictivity2.app",
+	"appName": "addictivity",
+	"webDir": "dist",
+	"plugins": {
+		"FirebaseAuthentication": {
+			"skipNativeAuth": false,
+			"providers": [
+				"google.com"
+			]
+		}
+	},
+	"packageClassList": [
+		"FirebaseAuthenticationPlugin",
+		"HapticsPlugin"
+	]
+}
